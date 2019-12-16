@@ -34,13 +34,32 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+-Semantic HTML is basically a naming scheme for HTML tags that
+helps provide clarification on the organization of the HTML code.  For instance, the top portion of a page would be called a Header, the bottom portion is a Footer, and middle groupings would be called Sections.  Headings, Footers, and Sections can also contain many div's, p's, h1-h6's, etc.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Block will create utilize its own space and start a new line afterwards.  Inline will allow continuation of items on the same line.  For instance:
+
+Block:
+Blake
+Davis
+
+Inline: Blake Davis
+
+The p element is an example of a block, and a span element is an example of an inline element.
 
 3. What are the 4 areas of the box model?
 
+Content, Padding, Border, Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Cross axis (whatever the opposite is of the flex-direction)
+
 5. Explain why git is valuable to a team of developers.
+
+GIT allows multiple Save states to a project for easy reference, as well as allows multiple contributors to all work on the same project then compare results.  The project manager or project lead can then view the multiple projects and also merge the branches accordingly upon approval. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
